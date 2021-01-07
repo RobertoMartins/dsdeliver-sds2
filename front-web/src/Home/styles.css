@@ -43,6 +43,7 @@
     font-size: 20px;
     letter-spacing: -0.015em;
     color: #FFF;
+    transition-duration: 0.2s;
   }
   
   .home-btn-order:hover {
