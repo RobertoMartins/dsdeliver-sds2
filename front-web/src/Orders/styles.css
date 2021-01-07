@@ -56,11 +56,12 @@
   }
   
   .orders-list-items {
-    width: 70%;
+    max-width: 75%;
     display: grid;
     grid-template-columns: repeat(auto-fill, 235px);
-    grid-gap: 20px 15px;
+    grid-gap: 25px 20px;
     justify-content: space-between;
+    margin-bottom: 15px;
   }
   
   .order-card-container {
@@ -267,6 +268,17 @@
       flex-direction: column;
       padding: 0;
       width: 90%;
+    }
+    .orders-list-items {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 100%);
+      justify-content: center;
+    }
+    .order-card-container{
+      width: 90%;
+      margin-left: 0;
+      margin-right:0 ;
     }
   
     .steps-items {
