@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --primary-color: #da5c5c;
-  --primary-hover-color: #a74b4b;
-  --dark-color: #263238;
+  --primary-color: #eb3535;
+  --primary-hover-color: #b43434;
+  --dark-color: #171f24;
   --secondary-color: #9E9E9E;
   --light-color: #F5F5F5;
 }
