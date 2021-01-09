@@ -47,7 +47,7 @@ function Orders(){
           setSelectedProducts([]);
         })
           .catch(() => {
-            toast.warning('Erro ao enviar pedido');
+            toast.error('Erro ao enviar pedido');
           })
       }
 
